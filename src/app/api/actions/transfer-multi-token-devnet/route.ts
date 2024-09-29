@@ -38,7 +38,7 @@ export const GET = async (req: Request) => {
   try {
     const requestUrl = new URL(req.url);
     const disabledStatus = false;
-    const baseHref = `/api/actions/transfer-multi-token`;
+    const baseHref = `/api/actions/transfer-multi-token-devnet`;
     const payload: ActionGetResponse = {
       type: "action",
       label: "Multi-Token Transfer",
