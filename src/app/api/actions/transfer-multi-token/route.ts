@@ -161,10 +161,10 @@ export async function POST(req: NextRequest) {
         "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
       );
       const BONK_MINT_ADDRESS = new PublicKey(
-        "bonkMLw9Gyn4F3dqwxaHgcqLQxvchiYLfjDjEVXCEMf"
+        "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263"
       );
       const SEND_MINT_ADDRESS = new PublicKey(
-        "CZWADf5pH1J9SdASXjTN2dBhD9GjuVscbz1htojexto8"
+        "SENDdRQtYMWaQrBroBrJ2Q53fgVuq95CV9UPGEvpCxa"
       );
 
       let mintAddress;
