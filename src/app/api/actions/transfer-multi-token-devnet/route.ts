@@ -99,7 +99,7 @@ export const GET = async (req: Request) => {
       },
     };
     return Response.json(payload, {
-      headers,
+      headers: ACTIONS_CORS_HEADERS
     });
   } catch (error) {
     console.log(error);
@@ -154,7 +154,7 @@ export async function POST(req: NextRequest) {
         },
       });
       return Response.json(payload, {
-        headers,
+        headers: ACTIONS_CORS_HEADERS,
       });
     } else {
       const USDC_MINT_ADDRESS = new PublicKey(
@@ -222,7 +222,7 @@ export async function POST(req: NextRequest) {
       });
 
       return Response.json(payload, {
-        headers,
+        headers: ACTIONS_CORS_HEADERS,
       });
     }
   } catch (error) {
